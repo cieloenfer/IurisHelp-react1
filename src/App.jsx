@@ -1,14 +1,15 @@
-import ItemListContainer from "./Componentes/ItemListContainer";
-import  Navbar  from "./Componentes/ComponenteNavbar";
-import CartWidget from "./Componentes/CartWidget";
+import ItemListContainer from "./Components/ItemListContainer";
+import  Navbar  from "./Components/Navbar";
+import CartWidget from "./Components/CartWidget";
+import { ChakraProvider } from "@chakra-ui/react";
 
 
-const App = {} => {
+const App = () => {
   return (
-    <div>
-    <ComponenteNavbar/>
-    <itemListContainer/>
-    </div>
+    <ChakraProvider>
+    <Navbar/>
+    <itemListContainer greeting={"Bienvenidos a Iuris Help"}/>
+    </ChakraProvider>
   );
 };
 
