@@ -1,5 +1,6 @@
 import React from 'react'
-import { Ménu ,MenúButton, MenúList, MenúItem } from '@chakra-ui/react';
+import { Menu ,MenuButton, MenuList, MenuItem } from '@chakra-ui/react';
+
 
 const ComponenteNavbar = () => {
   return (
@@ -10,8 +11,8 @@ const ComponenteNavbar = () => {
       <Menu>
   <MenuButton>Servicios Legales</MenuButton>
   <MenuList>
-    <MenuItem>Mediación</MenuItem>
-    <MenuItem>Asesorías Copropiedad y convivencia</MenuItem>
+    <MenuItem>Mediacion</MenuItem>
+    <MenuItem>Asesorias Copropiedad y convivencia</MenuItem>
     <MenuItem>Mark as Draft</MenuItem>
     <MenuItem>Delete</MenuItem>
     <MenuItem>Attend a Workshop</MenuItem>
